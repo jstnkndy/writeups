@@ -43,7 +43,7 @@ Selecting the drop down at the bottom right of Binary Ninja we are able to switc
 
 Interestingly enough there are two instances of the message (one I believe is used during the training and one that is used during the actual game time, I'll mention this is just a couple minutes).
 
-![](strings.png)
+![](images/strings.png)
 
 When you highlight the strings in this view you can look at the bottom left of the Binary Ninja window and see the Xrefs (where the strings are referenced). So I selected the first one (sub_401434) and took a look at it in graph view, sure enough finding the conditional statement at the bottom, one leading to the failure message, and the other leading to what would logically be the correct key press:
 
